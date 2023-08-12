@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of three different digits,
- *        in ascending order, separated by a comma followed by a space.
+ * main - main function
  *
- * Return: Always 0.
+ * Return: always 0
  */
+
 int main(void)
 {
 	int digit1, digit2, digit3;
@@ -28,8 +28,6 @@ int main(void)
 			}
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
